@@ -1,8 +1,10 @@
 package sk.akademiasovy.point;
 
+import sk.akademiasovy.Geometry;
+
 import java.util.Random;
 
-public class Point2D {
+public class Point2D implements Geometry{
     private int x;
     private int y;
 

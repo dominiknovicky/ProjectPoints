@@ -36,6 +36,6 @@ public class Point3D extends Point2D {
 
     @Override
     public void pointInfo() {
-        System.out.println("Point2D: [" + getX() + "][" + getY() + "][" + z + "] | Dist: " + getDistance());
+        System.out.println("Point3D: [" + getX() + "][" + getY() + "][" + z + "] | Dist: " + getDistance());
     }
 }
