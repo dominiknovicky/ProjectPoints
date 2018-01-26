@@ -4,7 +4,7 @@ import sk.akademiasovy.Geometry;
 
 import java.util.Random;
 
-public class Point2D implements Geometry{
+public class Point2D implements Geometry {
     private int x;
     private int y;
 
@@ -39,14 +39,14 @@ public class Point2D implements Geometry{
             return 0;
     }
 
+    public double getDistance() {
+        return Math.sqrt((x * x) + (y * y));
+    }
+
     public void randomCoord() {
         Random random = new Random();
         this.x = random.nextInt(41) - 20;
         this.y = random.nextInt(41) - 20;
-    }
-
-    public double getDistance() {
-        return Math.sqrt((x * x) + (y * y));
     }
 
     public void pointInfo() {
